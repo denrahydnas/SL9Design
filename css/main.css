@@ -9,7 +9,7 @@
     color: oldlace;
     text-shadow: 4px 4px 10px #006;
     text-align: center;
-    padding:5%;
+    padding:10% 5%;
     border-bottom: #006 groove 5px;
     border-top: #006 groove 5px;
     margin-bottom: 150px;
@@ -21,13 +21,8 @@
     text-align:left;
 }
 
-.jumbotron h3 {
-    font-size:4em;
-    margin: 15px 0 0 0;
-}
-
 .jumbotron h4 {
-    font-size:1.5em;
+    font-size:2.5em;
     margin: 5px 0 5px 0;
 }
 
@@ -36,7 +31,6 @@
     text-align: center;
     padding: 30px 0 30px 0;
     font-family: "Poiret One", sans-serif;
-    color: #006;
 }
 
 .nav h3{
@@ -45,35 +39,62 @@
 }
 
 .nav h5{
-    font-size:2em; 
+    font-size:2.5em; 
     text-shadow: 4px 4px 10px #FFF;
 }
 
 /* CONTENT */
+a {
+    color: #006;
+}
+
+a:hover {
+    color:#FFF;
+    text-decoration: none;
+}
 
 body {
-    background-color:#faf0e6;
+   /* background-color:#faf0e6;*/
+    background-image:url(/img//paper.png);
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 
-.title h3 {
+.credits p {
     font-family: "Poiret One", sans-serif;
-    color: #faf0e6;
+    font-size: 1.2em;
+    color: #006;
     text-shadow: 0px 1px 1px #006;
-    text-align: center;
-    font-size: 3em;
 }
-.title {
-    padding:1% 0 1% 0;
-    border-bottom: #006 groove 5px;
-    border-top: #006 groove 5px;
-    background-image:url(/img/background.png);
-    margin-bottom: 2%;
+
+h2 {
+    text-align:center;
+    padding: 30px 0 30px 0;
+    font-family: "Poiret One", sans-serif;
+    color: #006; 
+    font-size: 2.5em;
+    text-shadow: 0px 1px 1px #006;
 }
 
 p {
     font-family: "Raleway", sans-serif;
     font-size: 1.5em;
     color: #006;
+}
+
+.title h3 {
+    font-family: "Poiret One", sans-serif;
+    color: #faf0e6;
+    text-shadow: 0px 1px 1px #006;
+    font-size: 3em;
+}
+
+.title {
+    padding:1% 0 1% 0;
+    border-bottom: #006 groove 5px;
+    border-top: #006 groove 5px;
+    background-image:url(/img/background.png);
+    margin-bottom: 2%;
 }
 
 /* ABOUT */
@@ -83,5 +104,17 @@ p {
     border-bottom-left-radius: 2em;
     border: 4px groove #00A;
     box-shadow:2px 2px 2px #00A;
-    margin:2% 42% 2% 42%;
+    margin-bottom: 2%;
+}
+
+.stats li {
+    list-style: none;
+    text-align:center;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2em;
+    color: #006;
+}
+
+#about {
+    margin-bottom:50px;
 }
