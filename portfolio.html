@@ -5,6 +5,7 @@
   <head>
       <title> SL9 Design</title>
         <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" charset="utf-8">
+        <link href='https://fonts.googleapis.com/css?family=Poiret+One|Raleway:400,200' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen" charset="utf-8">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css" media="screen" charset="utf-8">
         <link rel="stylesheet" href="css/main.css" type="text/css" media="screen" charset="utf-8">
@@ -12,10 +13,30 @@
       
   </head>
         <header>
-            <nav>jump to section</nav>
+             <div class="row nav">
+                <div class="col-xs-6 col-md-2">
+                    <h3>A</h3>
+                    <h5>About</h5>
+                </div>
+                <div class="col-xs-6 col-md-2">
+                    <h3>W</h3>
+                    <h5>Work</h5>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                     <img src="img/SL9logo.svg" width=150px>
+                </div>
+                <div class="col-xs-6 col-md-2">
+                    <h3>P</h3>
+                    <h5>Play</h5>
+                </div>
+                <div class="col-xs-6 col-md-2">
+                    <h3>C</h3>
+                    <h5>Contact</h5>
+                </div>
+            </div>
             <div class="jumbotron">
                 <div class="row">
-                    <div class="title col-xs-offset-3 col-xs-9">
+                    <div class="col-xs-12 col-md-offset-3 col-md-9">
                         <h1>SL9 Design</h1>
                         <h3>Sandy Harned</h3>
                         <h4>designer, developer, project (and production) manager</h4>
@@ -24,12 +45,19 @@
             </div>
         </header>
     <body>
-        <div class="about"> 
-            <p> I've had an amazing career as a theatre technician. I've been to all 50 states and over 15 countries. I've worked on the Vancouver Olympics and flown Peter Pan all over South Korea. I started experimenting with web design and development while coordinating content for a website mobile redesign, and I've been fascinated ever since. <br>
-            My theatre background has given me unique skills that can be applicable and beneficial to many different fields. I'm a skilled project manager who knows how manage my time to meet crucial deadlines, because there is no deadline like Opening Night. Coordinating load-ins and figuring out flying scenarios is creative problem-solving wrought large. I've worked with designers and crews of varying levels of experience - not to mention varied temperaments - in high-stress situations. I'd love to put my skills to work for you. 
+        <div class="row">
+            <div class="title col-xs-offset-2 col-xs-8">
+                <h3> {  About me  } </h3>
+            </div>
+        </div>
+        <img class="headshot" src="img/headshot2.jpg" alt="photo of me" width="250px">
+        <div class="container bio">
+            <p> Since college, I've had an amazing career as a theatre technician, whether as a touring electrician, Flying Director or Production Manager.  I've worked on the Vancouver Olympics and flown Peter Pan all over South Korea.  I loved working in all 50 states and over 15 different countries, but eventually I decided it was time to get off the road and really enjoy living in my hometown of Louisville, Kentucky. <br>
+            I started experimenting with web design while coordinating content for a website mobile redesign.  I was surprised by how much I enjoyed it!  I took a few online courses and then was lucky to discover the Code Louisville program - a 12 week coding bootcamp offered through the Louisville Free Public Library and Kentuckiana Works.  I completed the Front-End dev cohort and immediately signed up for the PHP course, beginning this summer.  Now, I'm hooked and can't wait to learn more. <br>
+            My theatre background has given me unique skills that are applicable to many different fields.  I'm a skilled project manager who knows how manage my time to meet crucial deadlines, because there is no deadline like Opening Night.  Coordinating load-ins and figuring out flying scenarios is creative problem-solving on a giant scale.  I've directed crews of varying levels of experience through projects large and small, and I've worked closely with designers and directors to make their creations come to life.  I'd love to put my skills to work for you. 
             </p>
         </div>
-        <div class="stats"> 
+        <div class="container stats"> 
             <h2>Stats</h2>
             <p>
                 HTML - CSS - JavaScript - JQuery - Angular.js
@@ -39,60 +67,80 @@
                 Ulster
             </p>
         </div>
-        <div class="work"> 
-            <h2>Work</h2>
-            <div class="web dev"> 
-                <p>
-                    Code Lou
-                    PACollab
-                    Steve?
-                    Raegan?
-                </p>
-            </div>
-            <div class="logos"> 
-                <p>
-                    McCallum
-                    Logsdon
-                    Ben Marcum
-                </p>
-            </div>
-            <div class="projectmngmt"> 
-                <p>
-                    petrushka etc
-                    zfx harness manuals
-                </p>
+        <div class="work row">
+            <div class="title col-xs-offset-2 col-xs-8">
+                <h3> {  Work  } </h3>
             </div>
         </div>
-        <div class="play"> 
-            <h2>Play</h2>
-            <div class="illustrations"> 
-                <p>
-                    zfx
-                    Soko
-                </p>
+            <div class="row">
+                <div class="web dev"> 
+                    <p>
+                        Code Lou
+                        PACollab
+                        Steve?
+                        Raegan?
+                    </p>
+                </div>
+                <div class="logos"> 
+                    <p>
+                        McCallum
+                        Logsdon
+                        Ben Marcum
+                    </p>
+                </div>
+                <div class="projectmngmt"> 
+                    <p>
+                        petrushka etc
+                        zfx harness manuals
+                    </p>
+                </div>
             </div>
-            <div class="elephant"> 
-                <p>
-                    carousel with captions?
-                </p>
-            </div>
-            <div class="chicken"> 
-                <p>
-                    interactive game?
-                </p>
+        <div class="play row">
+            <div class="title col-xs-offset-2 col-xs-8">
+                <h3> {  Play  } </h3>
             </div>
         </div>
-        <div class="contact"> 
-            <h2>Contact</h2>
+            <div class="row">
+                <div class="illustrations"> 
+                    <p>
+                        zfx
+                        Soko
+                    </p>
+                </div>
+                <div class="elephant"> 
+                    <p>
+                        carousel with captions?
+                    </p>
+                </div>
+                <div class="chicken"> 
+                    <p>
+                        interactive game?
+                    </p>
+                </div>
+            </div>
+        <div class="contact row">
+            <div class="title col-xs-offset-2 col-xs-8">
+                <h3> {  Contact  } </h3>
+            </div>
+        </div>
+        <div class="row">
             <p>
-                email + git
+                email + git + linked in
             </p>
         </div>
     </body>
     
     <footer>
-        <div class="credits">
+        <div class="credits row">
+            <div class="col-xs-offset-1 col-xs-2">
+                <img src="img/SL9logo.svg" width=100px>
+            </div>
+            <div class="col-xs-offset-2 col-xs-2">
                 <p> &copy; 2016 SL9Design</p>
+            </div>
+            <div class="col-xs-offset-3 col-xs-2">
+                <img src="img/SL9logo.svg" width=100px>
+            </div>
         </div>
      </footer>
     <script src="//code.jquery.com/jquery-1.12.0.min.js" type="text/javascript" charset="utf-8"></script>

@@ -1,35 +1,87 @@
+/* HEADER */
+
 .jumbotron {
-    background-image: url(/img/logojumbo.png);
+    background-image: url(/img/background.png);
     background-size: cover;
     background-repeat:no-repeat;
     width:100%;
+    font-family:"Poiret One", sans-serif;
+    color: oldlace;
+    text-shadow: 4px 4px 10px #006;
+    text-align: center;
+    padding:5%;
+    border-bottom: #006 groove 5px;
+    border-top: #006 groove 5px;
+    margin-bottom: 150px;
 }
 
 .jumbotron h1 {
-    font-family: sans-serif;
     font-size:8em;
-    color: #fff;
-    text-shadow: 4px 4px 10px #006;
     margin:-15px 0 5px 0;
-    padding:0;
+    text-align:left;
 }
 
 .jumbotron h3 {
-    font-family: sans-serif;
     font-size:4em;
-    color: #fff;
-    text-shadow: 4px 4px 10px #006;
     margin: 15px 0 0 0;
-    padding:0;
-    text-align: center;
 }
 
 .jumbotron h4 {
-    font-family: sans-serif;
     font-size:1.5em;
-    color: #fff;
-    text-shadow: 4px 4px 10px #006;
     margin: 5px 0 5px 0;
-    padding:0;
+}
+
+.nav {
+    margin:10px 0 20px 0;
     text-align: center;
+    padding: 30px 0 30px 0;
+    font-family: "Poiret One", sans-serif;
+    color: #006;
+}
+
+.nav h3{
+    font-size:4em; 
+    text-shadow: 4px 4px 10px #FFF;
+}
+
+.nav h5{
+    font-size:2em; 
+    text-shadow: 4px 4px 10px #FFF;
+}
+
+/* CONTENT */
+
+body {
+    background-color:#faf0e6;
+}
+
+.title h3 {
+    font-family: "Poiret One", sans-serif;
+    color: #faf0e6;
+    text-shadow: 0px 1px 1px #006;
+    text-align: center;
+    font-size: 3em;
+}
+.title {
+    padding:1% 0 1% 0;
+    border-bottom: #006 groove 5px;
+    border-top: #006 groove 5px;
+    background-image:url(/img/background.png);
+    margin-bottom: 2%;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5em;
+    color: #006;
+}
+
+/* ABOUT */
+
+.headshot {
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border: 4px groove #00A;
+    box-shadow:2px 2px 2px #00A;
+    margin:2% 42% 2% 42%;
 }
