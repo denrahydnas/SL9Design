@@ -6,7 +6,6 @@
     background-repeat:no-repeat;
     width:100%;
     font-family:"Poiret One", sans-serif;
-    color: oldlace;
     text-shadow: 4px 4px 10px #006;
     text-align: center;
     padding:10% 5%;
@@ -19,11 +18,13 @@
     font-size:8em;
     margin:-15px 0 5px 0;
     text-align:left;
+    color:oldlace;
 }
 
 .jumbotron h4 {
     font-size:2.5em;
     margin: 5px 0 5px 0;
+    color:oldlace;
 }
 
 .nav {
@@ -38,7 +39,7 @@
     text-shadow: 4px 4px 10px #FFF;
 }
 
-.nav h5{
+h5{
     font-size:2.5em; 
     text-shadow: 4px 4px 10px #FFF;
 }
@@ -54,7 +55,6 @@ a:hover {
 }
 
 body {
-   /* background-color:#faf0e6;*/
     background-image:url(/img//paper.png);
     background-repeat:no-repeat;
     background-size:cover;
@@ -74,6 +74,12 @@ h2 {
     color: #006; 
     font-size: 2.5em;
     text-shadow: 0px 1px 1px #006;
+}
+
+h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 2.2em;
+    color: #006;
 }
 
 p {
@@ -97,6 +103,7 @@ p {
     margin-bottom: 2%;
 }
 
+
 /* ABOUT */
 
 .headshot {
@@ -115,6 +122,66 @@ p {
     color: #006;
 }
 
-#about {
-    margin-bottom:50px;
+/* WORK */
+.work {
+    margin-bottom: 5%;
+}
+
+.work a {
+    font-family: "Raleway", sans-serif;
+    font-size: 1em;
+    color: #006;
+}
+
+#work a:hover {
+    font-family: "Raleway", sans-serif;
+    font-size: 1em;
+    color: #00B;
+}
+
+.photo{
+    border: 4px groove #00A;
+    margin-bottom: 2%;
+}
+
+.cred p {
+    font-size:1.2em;
+}
+
+/* PLAY */
+
+#overlay {
+    background:rgba(0,0,102,0.8);
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    display:none;
+    padding-top: 8%;
+}
+ 
+.carousel-inner img {
+  margin: auto;
+}
+
+.carousel-caption {
+    color:#006;
+    text-shadow:none;
+    font-family:"Raleway", sans-serif;
+    font-size: 0.8em;
+}
+
+/* CONTACT */
+
+.icons {
+    margin: 5% 0 5% 0;
+} 
+
+.icons a {
+   font-family: "Poiret One", sans-serif;
+} 
+
+.contact {
+    margin: 10% 0;
 }
