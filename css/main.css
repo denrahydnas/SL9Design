@@ -148,6 +148,17 @@ p {
     font-size:1.2em;
 }
 
+.work button {
+    margin-top: 10px;
+    border: 2.5px ridge #006;
+    background-color:rgba(255, 255, 255, 0.2);
+    font-size: 1.5em;
+    border-radius:10px;
+}
+.work button:hover {
+    box-shadow: 0px 0px 10px #006;
+}
+
 /* PLAY */
 
 #overlay {
@@ -166,8 +177,8 @@ p {
 }
 
 .carousel-caption {
-    color:#006;
-    text-shadow:none;
+    color:#FFF;
+    text-shadow:0 0 2px #000;
     font-family:"Raleway", sans-serif;
     font-size: 0.8em;
 }
