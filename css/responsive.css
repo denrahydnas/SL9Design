@@ -1,10 +1,40 @@
 @media only screen and (max-width: 1275px) {
     /* tablets and phones in portrait*/
+    
+.carousel-caption {
+    font-size: 0.4em;
+    background-color:rgba(0,0,102, 0.4);
+    bottom: -5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
 
+.carousel .item{
+    height: 60%;
+} 
+    
+.nav-mini {
+    margin:5px 0 5px 0;
+    padding: 10px 0 10px 0;
+}
+    
+.nav-mini img{
+    width:100%;
+}
+
+.photo{
+    border: 1px;
+}
+
+
+.owl-carousel .owl-controls .owl-nav .owl-next {
+    margin-left:93%;
+}
 
 @media only screen and (max-width: 800px) {
     /* PHONES */
-        
+    
+  
 .jumbotron {
     padding:15% 5% 15% 5%;
     border-bottom: #006 groove 5px;
@@ -28,6 +58,10 @@
     margin: 5px 0 5px 0;
 }
 
+.nav-mini img{
+    width:120%;
+}
+
 .nav {
     margin:1%;
     padding: 5px 0 5px 0;
@@ -43,8 +77,18 @@
 
 .nav img {
    width: 80px;     
-}    
+} 
+    
+.owl-carousel .owl-controls .owl-nav .owl-next {
+    margin-left:83%;
+}
+
+p {
+    font-size: 1.2em;
+}
 
 .title h3 {
     font-size: 2em;
 }
+
+
