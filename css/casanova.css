@@ -1,0 +1,126 @@
+/* HEADER */
+
+.jumbotron {
+    background-image: url(/img/casanova.png);
+    background-repeat:none;
+    height: 400px;
+    border-bottom: 6px ridge #300;
+    border-top: 6px ridge #300;
+}
+
+.jumbotron h1 {
+    font-family: "Niconne", fantasy;
+    font-size: 9vw;
+    color: #fff;
+    text-shadow: 1px 1px 10px #300;
+}
+
+.jumbotron h4 {
+    font-family: "Crimson text", serif;
+    color: #fff;
+    text-shadow: 1px 1px 10px #300;
+    font-size: 2vw;
+}
+
+.nav {
+  /*background: linear-gradient(270deg, #300 20%, #101 70%);*/
+    font-family: "Crimson text", serif;
+    font-size: 2.5vw;
+}
+
+.nav li a {
+    color:#303;
+}
+
+/* CONTENT */
+
+
+body {
+    background-image:url(/img/woodgrain.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.credits p {
+}
+
+h3 {
+    font-family: "Niconne", fantasy;
+    font-size: 4vw;
+    color: #300;
+}
+
+h2, h4, h5, p, ul, li {
+    font-family: "Crimson text", serif;
+    color: #300;
+}
+
+
+/* ABOUT */
+
+.headshot {
+    border: 4px ridge #300;
+    margin-bottom: 5%;
+    margin-top: 5%; 
+}
+
+.stats li {
+    
+}
+
+/* WORK */
+.cred p {
+    
+}
+
+.photo{
+   
+}
+
+.work {
+    
+}
+
+.work a {
+   
+}
+
+#work a:hover {
+}
+
+.work button {
+    
+}
+
+.work button:hover {
+    
+}
+
+/* CONTACT */
+.contact {
+    
+}
+
+.icons {
+   
+} 
+
+.icons a {
+   
+} 
+
+
+@media only screen and (max-width: 1275px) {
+    /* tablets and phones in portrait*/
+
+.photo{
+   
+}
+
+
+@media only screen and (max-width: 800px) {
+    /* PHONES */
+    
+
+
+

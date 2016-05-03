@@ -1,0 +1,173 @@
+/* HEADER */
+
+.jumbotron {
+  
+}
+
+.jumbotron h1 {
+ 
+}
+
+.jumbotron h4 {
+    
+}
+
+.nav {
+  
+}
+
+.nav h3{
+   
+}
+
+h5{
+    
+}
+
+/* CONTENT */
+a {
+ 
+}
+
+a:hover {
+  
+}
+
+body {
+    
+}
+
+.credits p {
+   
+}
+
+h2 {
+    
+}
+
+h4 {
+    
+}
+
+p {
+    
+}
+
+.title h3 {
+    
+}
+
+.title {
+   
+}
+
+
+/* ABOUT */
+
+.headshot {
+   
+}
+
+.stats li {
+    
+}
+
+/* WORK */
+.cred p {
+    
+}
+
+.photo{
+   
+}
+
+.work {
+    
+}
+
+.work a {
+   
+}
+
+#work a:hover {
+}
+
+.work button {
+    
+}
+
+.work button:hover {
+    
+}
+
+/* CONTACT */
+.contact {
+    
+}
+
+.icons {
+   
+} 
+
+.icons a {
+   
+} 
+
+
+@media only screen and (max-width: 1275px) {
+    /* tablets and phones in portrait*/
+
+.photo{
+   
+}
+
+
+@media only screen and (max-width: 800px) {
+    /* PHONES */
+    
+  
+.jumbotron {
+    
+}
+
+.jumbotron h1 {
+   
+}
+
+.jumbotron h3 {
+    
+}
+
+.jumbotron h4 {
+    
+}
+
+.nav-mini img{
+  
+}
+
+.nav {
+   
+}
+
+.nav h3{
+    
+}
+
+.nav h5{
+    
+}
+
+.nav img {
+      
+} 
+
+p {
+    
+}
+
+.title h3 {
+    
+}
+
+
