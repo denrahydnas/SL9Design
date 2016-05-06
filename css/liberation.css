@@ -1,16 +1,10 @@
 /* HEADER */
-
-.jumbotron {
-  
+.border {
+  position:fixed;
+    top:0;
+    left:0;
 }
 
-.jumbotron h1 {
- 
-}
-
-.jumbotron h4 {
-    
-}
 
 .nav {
   
@@ -34,7 +28,7 @@ a:hover {
 }
 
 body {
-    
+    background-color:antiquewhite;
 }
 
 .credits p {

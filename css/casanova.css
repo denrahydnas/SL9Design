@@ -8,6 +8,24 @@
     border-top: 6px ridge #300;
 }
 
+.nav {
+    margin:10px 0 0 50px;
+    font-family: "Crimson text", serif;
+}
+
+.nav li a {
+    color:#303;
+    font-size: 2vw;
+}
+
+.nav-tabs li a:hover {
+    background-color: rgba(255,255,255,0.0);
+    transform:scale(1.5);
+    border:none;
+}
+
+/* TEXT */
+
 .jumbotron h1 {
     font-family: "Niconne", fantasy;
     font-size: 9vw;
@@ -17,20 +35,43 @@
 
 .jumbotron h4 {
     font-family: "Crimson text", serif;
+    text-transform: uppercase;
     color: #fff;
     text-shadow: 1px 1px 10px #300;
     font-size: 2vw;
 }
 
-.nav {
-  /*background: linear-gradient(270deg, #300 20%, #101 70%);*/
+h5, h6, p, ul, li {
     font-family: "Crimson text", serif;
-    font-size: 2.5vw;
+    color: #300;
 }
 
-.nav li a {
-    color:#303;
+
+h2, h3 {
+    font-family: "Niconne", fantasy;
+    font-size: 4.5vw;
+    color: #300;
 }
+
+h3 {
+    font-size: 3.5vw;
+}
+
+h5 {
+    font-size: 2em;
+    padding-bottom:15px;
+    font-weight:bold;
+}
+
+h6 {
+    font-size: 2em;
+    padding-bottom:15px;
+}
+
+p {
+    font-size: 1.5vw;
+}
+
 
 /* CONTENT */
 
@@ -39,88 +80,238 @@ body {
     background-image:url(/img/woodgrain.png);
     background-size:cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.credits p {
+.section {
+    border: groove #505 8px;
+    outline: solid #505 2px;
+    outline-offset: 6px;
+    padding:5%;
+    margin:5%;
 }
-
-h3 {
-    font-family: "Niconne", fantasy;
-    font-size: 4vw;
-    color: #300;
-}
-
-h2, h4, h5, p, ul, li {
-    font-family: "Crimson text", serif;
-    color: #300;
-}
-
 
 /* ABOUT */
 
 .headshot {
-    border: 4px ridge #300;
-    margin-bottom: 5%;
-    margin-top: 5%; 
+    border: 4px groove #303;
+    margin-bottom: 3%;
+    margin-top: 3%; 
 }
 
 .stats li {
-    
+    list-style:  none;
 }
+
+.title {
+    align-content: center
+}
+
+.layout-link:hover {
+    transform: scale(1.5);
+}
+
+.layout-link a{
+    text-decoration:none;
+}
+
 
 /* WORK */
-.cred p {
-    
-}
-
-.photo{
-   
-}
 
 .work {
-    
+    margin:5%; 
 }
 
-.work a {
-   
+.cred p {
+    font-size:1.2em;
 }
 
-#work a:hover {
+.owl-carousel .owl-controls .owl-nav .owl-prev, .owl-carousel .owl-controls .owl-nav .owl-next {
+    color:#303;
+    font-family: "Niconne", fantasy;
+    font-size: 1.2em;
+    display: inline;
 }
 
-.work button {
-    
+.owl-carousel .owl-controls .owl-nav .owl-next {
+    margin-left:95%;
 }
 
-.work button:hover {
-    
+.owl-carousel .owl-controls .owl-nav .owl-next:hover, .owl-carousel .owl-controls .owl-nav .owl-prev:hover {
+    color:#FFF;
+    padding: 0 3px 0 3px;
+    background-color:#303;
+    border-radius:3px;
 }
+
+.owl-carousel {
+  width: 100%;
+}
+
+.owl-carousel .owl-item img {
+  width: 100%;
+}
+
+.work img{
+    border: 4px groove #505; 
+}
+.code img {
+     margin: 0 2% 1% 0;
+}
+.harness img {
+     margin: 0 1% 2% 0;
+}
+
+/* PLAY */
+
+.play a {
+    font-family: "Crimson Text", sans-serif;
+    font-size: 1em;
+    color: #303;
+}
+
+#play a:hover {
+    font-family: "Crimson Text", sans-serif;
+    font-size: 1em;
+    color: #303;
+    text-decoration:none;
+}
+
+.play button {
+    margin-top: 10px;
+    border: 2.5px ridge #505;
+    background-color:rgba(255, 255, 255, 0.2);
+    font-size: 1.5em;
+    border-radius:10px;
+}
+
+.play button:hover {
+    box-shadow: 0px 0px 10px #303;
+}
+
+
 
 /* CONTACT */
-.contact {
-    
-}
-
-.icons {
-   
-} 
 
 .icons a {
-   
+    text-decoration:none;
+} 
+
+.icons h3:hover {
+    transform: scale(1.5);
 } 
 
 
-@media only screen and (max-width: 1275px) {
+@media only screen and (max-width: 1000px) {
     /* tablets and phones in portrait*/
 
-.photo{
-   
+
+/* TEXT */
+
+.jumbotron h1 {
+    font-size: 6em;
+}
+.jumbotron h4 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 3em;
+}
+h3 {
+    font-size: 2.5em;
+}
+h5 {
+    font-size: 1.8em;
+}
+h6 {
+    font-size: 2em;
+}
+p {
+    font-size: 1.5em;
+}
+
+/* CONTENT */
+
+.section {
+    margin:10% 2% 10% 2%;
+}
+
+/* ABOUT */
+
+.headshot {
+    display:block;
 }
 
 
 @media only screen and (max-width: 800px) {
     /* PHONES */
     
+/* HEADER */
+
+.jumbotron {
+    height: 400px;
+    border-bottom: 6px ridge #300;
+    border-top: 6px ridge #300;
+}
+
+.nav {
+    margin:5px 0 0 50px;
+}
+.nav a p {
+     font-size:2em;   
+}
+
+/* TEXT */
+
+.jumbotron h1 {
+    font-size: 5em;
+}
+.jumbotron h4 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 3em;
+}
+h3 {
+    font-size: 2.5em;
+}
+h5 {
+    font-size: 1.8em;
+}
+h6 {
+    font-size: 2em;
+}
+p {
+    font-size: 1.5em;
+}
+
+/* CONTENT */
+
+.section {
+    margin:10% 2% 10% 2%;
+}
+
+/* ABOUT */
+
+.headshot {
+    display:block;
+}
+
+/* WORK */
+
+.owl-carousel .owl-controls .owl-nav .owl-next {
+    margin-left:80%;
+}
+
+.code img {
+     min-width: 250px;
+}
+.harness img {
+     min-width: 250px;
+}
+
 
 
 
