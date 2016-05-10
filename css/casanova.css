@@ -1,7 +1,7 @@
 /* HEADER */
 
 .jumbotron {
-    background-image: url(/img/casanova.png);
+    background-image: url(/img/casanova/casanova.png);
     background-repeat:none;
     height: 400px;
     border-bottom: 6px ridge #300;
@@ -77,7 +77,7 @@ p {
 
 
 body {
-    background-image:url(/img/woodgrain.png);
+    background-image:url(/img/casanova/woodgrain.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

@@ -1,7 +1,7 @@
 /* HEADER */
 
 .jumbotron {
-    background-image: url(../img/background.png);
+    background-image: url(../img/main/background.png);
     background-size: cover;
     background-repeat:no-repeat;
     width:100%;
@@ -56,7 +56,7 @@ a:hover {
 }
 
 body {
-    background-image:url(../img//paper.png);
+    background-image:url(../img/main/paper.png);
     background-repeat:no-repeat;
     background-size:contain;
     background-attachment: fixed;
@@ -101,7 +101,7 @@ p {
     padding:1% 0 1% 0;
     border-bottom: #006 groove 5px;
     border-top: #006 groove 5px;
-    background-image:url(../img/background.png);
+    background-image:url(../img/main/background.png);
     margin-bottom: 5%;
     margin-top: 5%;
 }
