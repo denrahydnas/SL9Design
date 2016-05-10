@@ -3,6 +3,9 @@
 var app = angular.module("myApp", []);
                          
 app.controller('MainController', ['$scope', function ($scope) { 
+    
+    $scope.headshot = "../img/headshot2.jpg";
+    
     $scope.aboutme1 = "I've had a great career in the arts - working behind the scenes as a theatre technician and  production manager. I've been an electrician, a touring technical manager and a flying director, rigging aerial systems and choreographing Peter Pan productions around the world. I love mixing creative thinking with practical solutions and coming up with new ways of resolving problems."; 
     
     $scope.aboutme2 = "These days I'm excited to learn all I can about web design and development. I started experimenting with web design while coordinating content for my company's mobile redesign.  I was surprised by how much I enjoyed working on the project!  I took a few online courses and then was lucky to discover the Code Louisville program - a 12 week coding bootcamp offered through the Louisville Free Public Library and Kentuckiana Works.  I completed the Front-End dev cohort and immediately signed up for the PHP course, beginning this summer.  Now, I'm hooked and can't wait to learn more.  One of my next projects is a site for the Performing Arts Collaborative, a group of local theatre technicians, administrators and designers who are driven to educate and involve area students in local arts opportunities. I'm thrilled that they asked me to build their site, and I hope to continue my path into software development while maintaining my ties to Louisville's arts community."; 
