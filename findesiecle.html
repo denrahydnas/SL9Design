@@ -1,26 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <head>
       <title> SL9 Design</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen">
         <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="screen">
         <link rel="stylesheet" href="css/findesiecle.css" type="text/css" media="screen">
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+        <script src="js/angular.min.js" type="text/javascript"></script>
+        <script src="js/ng-content.js" type="text/javascript"></script>
   </head>
-      <body>
-        <header>
-             <div>
-                 <ul class="nav nav-tabs">
+      <body ng-controller="MainController">
+        <header class= "jumbotron">
+             <div class="nav pull-left">
+                 <ul>
                     <li><a href="#about"><p>About</p></a></li>
                     <li><a href="#work"><p>Work</p></a></li>
                     <li><a href="#play"><p>Play</p></a></li>
                     <li><a href="#contact"><p>Contact</p></a></li>
                  </ul>  
                 </div>
-            <div class="jumbotron">
-                <div class="container title text-center">
+            <div>
+                <div class="center-block text-center">
                         <h1>Sandy Harned</h1>
                         <h4>designer, developer, project (and production) manager</h4>
                 </div>
@@ -29,26 +32,27 @@
   
         <div class="section" id="about">
             <div class="about row">
-                <div class="title col-xs-12 col-md-3">
+                <div class="container-fluid title">
                     <h2> About me </h2>
-                    <img class="headshot img-circle" src="img/headshot2.jpg" alt="photo of me" width="200px">
+                    <img class="headshot" src="img/headshot2.jpg" alt="photo of me" width="200px">
                 </div>
-                    <div class="container bio col-xs-12 col-md-9">
-                        <p></p>
-                        <p></p>
+                    <div class="container bio">
+                        <p>{{ aboutme1 }}</p>
+                        <p>{{ aboutme2 }}</p>
+                        <p>{{ aboutme3 }}</p>
                     </div>
             </div>
             <div class="stats row"> 
                 <div class="col-sm-offset-1 col-sm-5">
                     <h5>Education and certifications</h5>
                     <ul>
-                        <li>{{education}}</li>
+                        <li ng-repeat="ed in education">{{ed}}</li>
                     </ul>
                 </div>
                 <div class="col-sm-offset-1 col-sm-5">
                     <h5>Programs and languages</h5>
                     <ul>
-                        <li>{{languages}}</li>
+                        <li ng-repeat="lang in languages">{{lang}}</li>
                     </ul>
                 </div>    
             </div>
@@ -77,29 +81,27 @@
                         <ul>
                  </div>
           </div>
-        <div class="section" id="work">
+        <div class="section container-fluid" id="work">
             <div class="row">
-                <div class="title col-xs-offset-2 col-xs-8">
+                <div class="title container-fluid col-xs-offset-2 col-xs-8">
                     <h2 class="text-center">  Work  </h2>
                 </div>
             </div>
             <div class="container">
                 <div class="work code"> 
-                    <h5>{{project.title}}</h5>
-                        <a href="https://github.com/Denrahydnas/CodeLouisvilleProject"><img class="pull-left" src={{project.image}} width="40%"></a> 
-                            <p> 
-                                
-                            </p>
+                    <h5>{{projectA.title}}</h5>
+                        <a href="{{projectA.link}}">
+                        <img class="pull-left" ng-src="{{projectA.image}}" width="40%"></a> 
+                        <p> {{projectA.blurb}}</p>
                 </div>
                 <div class="work harness pull-right"> 
-                    <h5>ZFX Flying Effects harness manuals</h5>
-                        <a href="http://www.zfxflying.com/harnesses/"><img class="photo pull-right" src="img/harnesses.JPG" width="80%"></a> 
-                            <p>    
-                                I created ZFX flying harness manuals for publication and inclusion with all harness sales and rentals. I laid out the outlines for structure and wrote all of the content. I worked to improve my skills with Adobe Illustrator in order to create the illustrations for the project.  I edited all changes and worked closely with Mindsalt Design on the art direction.  Manuals and inspection forms are available to view online at <a href="//www.zfxflying.com/harnesses">www.zfxflying.com/harnesses.</a> 
-                            </p>
+                    <h5>{{projectB.title}}</h5>
+                        <a href="{{projectB.link}}">
+                        <img class="photo pull-right" ng-src="{{projectB.image}}" width="80%"></a> 
+                        <p> {{projectB.blurb}} </p>
                 </div>
                 <div class="work ballet"> 
-                    <h5>Louisville Ballet and Louisville Orchestra spring collaboration</h5>
+                    <h5>{{projectC.title}}</h5>
                                 <div class="owl-carousel">
                                     <div><img src="img/copro1.png" alt="petrushka final image"></div>
                                     <div><img src="img/Pet-model.png" alt="petrushka model" ></div>
@@ -110,11 +112,9 @@
                                     <div><img src="img/copro3.png" alt="union final image" ></div>
                                     <div><img src="img/copro2.png" alt="petrushka final image"></div>
                                 </div>
-                        <p>
-                            The first two pieces in the presentation required the full orchestra to be onstage with the dancers performing downstage. The design for Petroushka (the third piece in the program) required nearly 600 feet of structure that could be hung at dramatic angles and support both working and faux lighting instruments. It also needed to be able to fly into place during a twenty minute intermission. The full orchestra would also need to be moved offstage quickly during the same 20 minute intermission.  I decided to use equipment typically used in arena and rock & roll rigging to safely achieve the desired look, along with a rolling 28ft x 48ft platform to shift the orchestra equipment offstage. Working with IATSE local #17, we made the scene change in under 20 minutes every night. 
-                        </p>
+                        <p>{{projectC.blurb}} </p>
                         <div class="cred"> 
-                            <p>Petrushka model and scenic design by Marion Williams, production photos by Sam English Photography</p>
+                            <p>{{projectC.credits}}</p>
                         </div>
                 </div>
             </div>

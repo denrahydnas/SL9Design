@@ -16,7 +16,7 @@ app.controller('MainController', ['$scope', function ($scope) {
                         "Exchange student University of Ulster-Coleraine",
                         "ETCP certified arena rigger", 
                         "University of Louisvile Online, Illustrator CS6, March 2015", 
-                        "Code Louisville Front-End Development, completed March 2016"
+                        "Code Louisville Front-End Development, completed March 2016",
                         "Treehouse.com: Front-End Development and Web Design tracks",
                         "Code Louisville PHP Development, starting May 2016",
                         "DesignLab UX Research and Strategy course, May 2016"];
@@ -30,28 +30,24 @@ app.controller('MainController', ['$scope', function ($scope) {
                         "Microsoft Office Suite",
                         "French and Korean"];
         
-    $scope.projects = [{
+    $scope.projectA = {
                     title: 'Code Louisville Project: Louisville Rotaract',
                     link: "https://github.com/Denrahydnas/CodeLouisvilleProject",
-                    image: "../img/rotaract.JPG",
+                    image: "/img/rotaract.jpg",
                     blurb: "I created a site for Louisville Rotaract as part of my Code Louisville Front-End Development course. Rotaract is a partner of Rotary International, and the Louisville branch is working to attract new membership. I took all of the photos of Louisville featured in the page headers and edited them with Photoshop. I added interactive elements using JQuery and Angular.js. The next step is to adapt my project design into a working site with a Wordpress CMS that the club can update and maintain themselves. Please click on the image to review my code on Github."
-                },
-                {
+                        };
+   $scope.projectB = {
                     title: "ZFX Flying Effects harness manuals",
-                    link: "http://www.zfxflying.com/harnesses/" ,
-                    image: "../img/harnesses.JPG",
+                    link: "http://www.zfxflying.com/harnesses/",
+                    image: "/img/harnesses.jpg",
                     blurb: "I created ZFX flying harness manuals for publication and inclusion with all harness sales and rentals. I laid out the outlines for structure and wrote all of the content. I worked to improve my skills with Adobe Illustrator in order to create the illustrations for the project.  I edited all changes and worked closely with Mindsalt Design on the art direction. Click the photo above to view all inpection sheets and manuals."
-                },
-                {
-                    title: 'Louisville Ballet and Louisville Orchestra spring collaboration',
-                    link: '',
-                    image: '',
-                    blurb: "The first two pieces in the presentation required the full orchestra to be onstage with the dancers performing downstage. The design for Petroushka (the third piece in the program) required nearly 600 feet of structure that could be hung at dramatic angles and support both working and faux lighting instruments. It also needed to be able to fly into place during a twenty minute intermission. The full orchestra would also need to be moved offstage quickly during the same 20 minute intermission.  I decided to use equipment typically used in arena and rock & roll rigging to safely achieve the desired look, along with a rolling 28ft x 48ft platform to shift the orchestra equipment offstage. Working with IATSE local #17, we made the scene change in under 20 minutes every night."
-                }];
+                        };
+  $scope.projectC = {
+                    title: "Louisville Ballet and Louisville Orchestra spring collaboration",
+                    blurb: "The first two pieces in the presentation required the full orchestra to be onstage with the dancers performing downstage. The design for Petroushka (the third piece in the program) required nearly 600 feet of structure that could be hung at dramatic angles and support both working and faux lighting instruments. It also needed to be able to fly into place during a twenty minute intermission. The full orchestra would also need to be moved offstage quickly during the same 20 minute intermission.  I decided to use equipment typically used in arena and rock & roll rigging to safely achieve the desired look, along with a rolling 28ft x 48ft platform to shift the orchestra equipment offstage. Working with IATSE local #17, we made the scene change in under 20 minutes every night.",
+                    credits: "Petrushka model and scenic design by Marion Williams, production photos by Sam English Photography"
+                        };
     
-    
-    
-    };
                                   
     
 }]);

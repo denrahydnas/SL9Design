@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(130deg, #fff 50%, #666);
+}
+
+h1, h2, h3,h4,h5, h6, a, li, p {
+    
+}
+
+
+/* HEADER */
+
+.jumbotron {
+    background-image: url(/img/fin/fin1.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 50%vh;
+    border-bottom: 10px solid #000;
+}
+
+.nav li {
+    list-style:none;
+}
+
+.nav li a {
+    text-decoration: none;
+    color:#FFF;
+}
+
+.title {
+    color:#fff;
+    font-family:Century Gothic;
+    background-image: url(/img/fin/fin4.png);
+    background-repeat: no-repeat;
+    background-size:cover;   
+}
+
