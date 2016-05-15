@@ -1,5 +1,6 @@
 {
     "jscodehints.detectedExclusions": [
-        "C:/Users/Sandy/Documents/GitHub/SL9Design/js/owlfunction.js"
+        "C:/Users/Sandy/Documents/GitHub/SL9Design/js/owlfunction.js",
+        "C:/Users/Sandy/Documents/GitHub/SL9Design/js/owl.carousel.min.js"
     ]
 }
