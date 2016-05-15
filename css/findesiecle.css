@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(130deg, #fff 50%, #666);
+    background: linear-gradient(45deg, #eef, #fff, #eef);
+    border: 10px solid #004; 
 }
 
 h1, h2, h3,h4,h5, h6, a, li, p {
@@ -9,12 +10,12 @@ h1, h2, h3,h4,h5, h6, a, li, p {
 
 /* HEADER */
 
-.jumbotron {
-    background-image: url(/img/fin/fin1.png);
+.jumbo {
+    background-image: url(/img/fin/finback.png);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 50%vh;
-    border-bottom: 10px solid #000;
+    height: 400px;
+    border-bottom: 10px solid #004; 
 }
 
 .nav li {
@@ -23,14 +24,17 @@ h1, h2, h3,h4,h5, h6, a, li, p {
 
 .nav li a {
     text-decoration: none;
-    color:#FFF;
+    color:#004;
 }
 
-.title {
-    color:#fff;
+.section {
+    color:#004;
     font-family:Century Gothic;
-    background-image: url(/img/fin/fin4.png);
-    background-repeat: no-repeat;
-    background-size:cover;   
+    background: linear-gradient(45deg, #eef, #fff, #eef);
+    margin-top: 30px;
 }
 
+.work {
+    display:block;
+    margin: 10px;
+}

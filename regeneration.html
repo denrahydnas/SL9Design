@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+      <title> SL9 Design</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="css/findesiecle.css" type="text/css" media="screen">
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+        <script src="js/angular.min.js" type="text/javascript"></script>
+        <script src="js/ng-content.js" type="text/javascript"></script>
+  </head>
+      <body ng-controller="MainController">
+        <header class= "">
+            <div class="">
+                <div class="">
+             <div class="nav">
+                 <ul>
+                    <li><a href="#about"><p>About</p></a></li>
+                    <li><a href="#work"><p>Work</p></a></li>
+                    <li><a href="#play"><p>Play</p></a></li>
+                    <li><a href="#contact"><p>Contact</p></a></li>
+                    <li><a href="#themes"><p>Themes</p></a></li>
+                 </ul>  
+          </div>
+                </div>
+            <div>
+                <div class="text-center">
+                        <h1>Sandy Harned</h1>
+                        <h4>designer, developer, project (and production) manager</h4>
+                </div>
+            </div>
+          </div>
+        </div>
+        </header>
+  
+        <div class="section" id="about">
+            <div class="about">
+                <div class="title">
+                    <h2> About me </h2>
+                    <img class="headshot" ng-src="{{headshot}}" alt="photo of me" width="200px">
+                </div>
+                    <div class= "bio">
+                        <p>{{ aboutme1 }}</p>
+                        <p>{{ aboutme2 }}</p>
+                        <p>{{ aboutme3 }}</p>
+                    </div>
+            </div>
+            <div class="stats"> 
+                <div class="">
+                    <h5>Education and certifications</h5>
+                    <ul>
+                        <li ng-repeat="ed in education">{{ed}}</li>
+                    </ul>
+                </div>
+                <div class="">
+                    <h5>Programs and languages</h5>
+                    <ul>
+                        <li ng-repeat="lang in languages">{{lang}}</li>
+                    </ul>
+                </div>    
+            </div>
+        </div>
+        <div class="themes">
+                    <h5 class="text-center">Want to see this page with a different layout? Choose one:</h5>
+                        <div class="icons">
+                                <div class="layout-link"><a href="/index.html">
+                                    <h2>A</h2></a>
+                                </div>
+                                 <div class="layout-link"><a href="/findesiecle.html">
+                                    <h2>B</h2></a>
+                                </div>
+                                 <div class="layout-link"><a href="/knighthood.html">
+                                    <h2>C</h2></a>
+                                </div>
+                                <div class="layout-link"><a href="/liberation.html">
+                                    <h2>D</h2></a>
+                                </div>
+                                <div class="layout-link"><a href="/regeneration.html">
+                                    <h2>E</h2></a>
+                                </div>
+                                <div class="layout-link"><a href="/casanova.html">
+                                    <h2>F</h2></a>
+                                </div>
+                        <ul>
+                 </div>
+          </div>
+        <div class="section" id="work">
+            <div>
+                <div class="title">
+                    <h2 class="text-center">  Work  </h2>
+                </div>
+            </div>
+            <div class="">
+                <div class="work code"> 
+                    <h5>{{projectA.title}}</h5>
+                        <a href="{{projectA.link}}">
+                        <img class="photo" ng-src="{{projectA.image}}" width="40%"></a> 
+                        <p> {{projectA.blurb}}</p>
+                </div>
+                <div class="work harness"> 
+                    <h5>{{projectB.title}}</h5>
+                        <a href="{{projectB.link}}">
+                        <img class="photo" ng-src="{{projectB.image}}" width="80%"></a> 
+                        <p> {{projectB.blurb}} </p>
+                </div>
+                <div class="work ballet"> 
+                    <h5>{{projectC.title}}</h5>
+                                <div class="owl-carousel">
+                                    <div><img src="img/copro1.png" alt="petrushka final image"></div>
+                                    <div><img src="img/Pet-model.png" alt="petrushka model" ></div>
+                                    <div><img src="img/petr1.png" alt="petrushka setup 1" ></div>
+                                    <div><img src="img/petr2.png" alt="petrushka setup 2" ></div>
+                                    <div><img src="img/petr3.png" alt="petrushka setup 3"></div>
+                                    <div><img src="img/petr4.png" alt="petrushka setup 4" ></div>
+                                    <div><img src="img/copro3.png" alt="union final image" ></div>
+                                    <div><img src="img/copro2.png" alt="petrushka final image"></div>
+                                </div>
+                        <p>{{projectC.blurb}} </p>
+                        <div class="cred"> 
+                            <p>{{projectC.credits}}</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="play">
+        <div>
+            <div class="title">
+                <h2 class="text-center">  Play  </h2>
+            </div>
+        </div>
+           <div class="">
+                <div class="play"> 
+                    <h5>The Effervescing Elephant</h5>
+                    <p>
+                        I started this project to practice my Illustrator skills, then I kept going with it just for fun. <br>It's one of my favorite (very silly) songs. I will add more verses soon. Enjoy!
+                    </p>
+                    <img class="elephant center-block" src="img/elephant/elephant1.png" width="40%">
+                    <a href="elephant.html"><button class="center-block">click to view</button></a> 
+                </div>
+            </div>
+        </div>
+        <div class="section text-center" id="contact">
+            <div class="">
+                <div class="title">
+                    <h2>  Contact  </h2>
+                </div>
+            </div>
+            <div class="contact">
+                <h5 class="text-center">Thanks for reviewing my portfolio. I'd love to hear from you. </h4>
+                    <h6 class="text-center">Please contact me at one of the following links:</h6>
+                        <div class="icons">
+                                <a href="mailto:denrahydnas@gmail.com"><h3>email</h3></a>
+                                <a href= "https://github.com/Denrahydnas"><h3>github</h3></a>
+                                <a href= "https://www.linkedin.com/in/sandyharned"><h3>linked in</h3></a>
+                        </div>
+                 </div>
+            </div>
+      
+    
+        <footer>
+            <div class="credits text-center">
+                    <p> &copy; 2016 SL9Design</p>
+            </div>
+         </footer>
+        <script src="//code.jquery.com/jquery-1.12.0.min.js" type="text/javascript"></script>
+        <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="js/owlfunction.js" type="text/javascript"></script>
+    </body>
+</html>
