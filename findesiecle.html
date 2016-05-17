@@ -14,7 +14,7 @@
         <script src="js/ng-content.js" type="text/javascript"></script>
   </head>
       <body ng-controller="MainController">
-        <header class= "banner hidden-xs">
+        <header class= "banner">
             <div class="content">
                 <div class="text-center">
                         <h1>Sandy Harned</h1>
@@ -31,9 +31,9 @@
                 <div class="themes">
                      <ul>
                         <li><h4>Themes</h4></li>
-                        <li><a href="/index.html">A: original recipe</a></li>
+                        <li><a href="/index.html">A: original</a></li>
                         <li><a href="/knighthood.html">B: mod</a></li>
-                        <li><a href="/liberation.html">C: pastoral</a></li>
+                        <li><a href="/promenade.html">C: pastoral</a></li>
                         <li><a href="/casanova.html">D: romantic</a></li>
                         <li><a href="/regeneration.html">E: art deco</a></li>
                         <li><a href="/findesiecle.html">F: You are here</a></li>
@@ -80,13 +80,13 @@
                 <div class="work code"> 
                     <h5>{{projectA.title}}</h5>
                         <a href="{{projectA.link}}">
-                        <img class="photo" ng-src="{{projectA.image}}" width="40%"></a> 
+                        <img ng-src="{{projectA.image}}" width="40%"></a> 
                         <p> {{projectA.blurb}}</p>
                 </div>
                 <div class="work harness"> 
                     <h5>{{projectB.title}}</h5>
                         <a href="{{projectB.link}}">
-                        <img class="photo" ng-src="{{projectB.image}}" width="80%"></a> 
+                        <img ng-src="{{projectB.image}}" width="50%"></a> 
                         <p> {{projectB.blurb}} </p>
                 </div>
                 <div class="work ballet"> 

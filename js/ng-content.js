@@ -23,9 +23,9 @@ app.controller('MainController', ['$scope', function ($scope) {
     
     $scope.languages = ["HTML5 & CSS3",
                         "JavaScript & JQuery",
-                        "Angular.js & Bootstrap",
-                        "Wordpress & Shopify",
-                        "Adobe Illustrator, InDesign, Photoshop",
+                        "Angular.js & Bootstrap3",
+                        "Wordpress & Shopify CMS management",
+                        "Adobe Illustrator, InDesign, PhotoShop",
                         "Google Docs, Developer Tools, Analytics",
                         "Microsoft Office Suite",
                         "French and Korean"];
@@ -40,7 +40,7 @@ app.controller('MainController', ['$scope', function ($scope) {
                     title: "ZFX Flying Effects harness manuals",
                     link: "http://www.zfxflying.com/harnesses/",
                     image: "/img/harnesses.jpg",
-                    blurb: "I created ZFX flying harness manuals for publication and inclusion with all harness sales and rentals. I laid out the outlines for structure and wrote all of the content. I worked to improve my skills with Adobe Illustrator in order to create the illustrations for the project.  I edited all changes and worked closely with Mindsalt Design on the art direction. Click the photo above to view all inpection sheets and manuals."
+                    blurb: "I created ZFX flying harness manuals for publication and inclusion with all harness sales and rentals. I laid out the outlines for structure and wrote all of the content. I worked to improve my skills with Adobe Illustrator in order to create the illustrations for the project.  I edited all changes and worked closely with Mindsalt Design on the art direction. Click the image to view all inpection sheets and manuals."
                         };
   $scope.projectC = {
                     title: "Louisville Ballet and Louisville Orchestra spring collaboration",
